@@ -1,0 +1,19 @@
+To install software in Linux, launch turtlebot3 gazebo simulator,  and MATLAB
+To install a software  in linux
+sudo dpkg -i  ./<filename>               filename is generally deb
+
+To launch my_bot and turtlebot3
+1) cd mybot_ws
+2) source devel/setup.bash
+3) roslaunch mybot_gazebo mybot_world.launch
+
+For ROS turtlebot3 simulator,  type directly in terminal 
+roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch 
+if it fails, source setup.bash as shown in step 2. Not necessarily same directory name.
+
+To view ROS camera output in the terminal 
+rosrun image_view image_view image:=/mybot/camera1/image_raw
+
+To Launch MATLAB
+1) cd /usr/local/MATLAB/2019b/bin
+2) ./matlab
