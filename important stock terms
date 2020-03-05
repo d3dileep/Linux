@@ -1,3 +1,6 @@
-positive: approval,recovers, gain, gainer, gainers, climb, climbs,rises, rise, invest, investmen, bullish, Cherry-picking
+positive: approval,recovers, gain, gainer, gainers, climb, climbs,rises, rise, invest, investmen, bullish, Cherry-picking,
+          resumes trading, profit, surge, green, IPO, initial public offering, jump
 
-Negative: slip over, fall, falls, loss, losses, plunges, plunge, loser, losers, decline, disinvestment, bearish
+Negative: slip over, fall, falls, loss, losses, plunges, plunge, loser, losers, decline, disinvestment, bearish, red,
+          bankruptcy, insolvency,liquidation
+
