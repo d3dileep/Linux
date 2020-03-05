@@ -17,3 +17,7 @@ rosrun image_view image_view image:=/mybot/camera1/image_raw
 To Launch MATLAB
 1) cd /usr/local/MATLAB/2019b/bin
 2) ./matlab
+
+Connect to a server using 
+    sftp :  sftp://10.40.xx.xxx@username
+    ssh  :  ssh usrname@10.40.xx.xxx
