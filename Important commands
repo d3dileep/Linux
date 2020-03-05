@@ -8,6 +8,10 @@ To install and Launch MATLAB
 0b) sudo dpkg -i ./install  (install is installer name)
 1) cd /usr/local/MATLAB/2019b/bin
 2) ./matlab
+   or run matlab script from terminal directly.
+        ./matlab -nodisplay -nosplash -nodesktop -r 
+            "run('/media/dileep/New Volume/backup/renfisdnimplementedfiles/copy_of_mnn.m');exit;" | tail -n +11
+
 
 Connect to a server using 
     sftp :  sftp://10.40.xx.xxx@username
